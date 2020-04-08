@@ -13,13 +13,13 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">List Repostory</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
+        <Navbar bg="dark" variant="dark" expand="lg">
+          <Container>
+            <Navbar.Brand href="">List Repostory</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              {/* <Nav className="mr-auto">
+         
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -33,8 +33,9 @@ class Header extends Component {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-            </Nav>
-          </Navbar.Collapse>
+            </Nav> */}
+            </Navbar.Collapse>
+          </Container>
         </Navbar>
       </header>
     );

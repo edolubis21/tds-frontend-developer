@@ -5,12 +5,13 @@
 
 $myColor: #24292e;
 $fontColor: white;
+$fontColorsecond: rgba(0, 0, 0, 0.7);
 
 .content {
   display: flex;
   padding-bottom: 8px;
   margin-bottom: 6px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #e1e4e8;
 }
 
 .profile {
@@ -25,5 +26,27 @@ $fontColor: white;
 
 .list {
   height: auto;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #e1e4e8;
+  .listrepo {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .type {
+    margin: 0;
+    padding: 0;
+  }
+  .createatt {
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: $fontColorsecond;
+    font-size: 12px;
+  }
+}
+
+.eclipse {
+  width: 10px;
+  color: red;
+  background-color: red($color: #000000);
 }

@@ -4,10 +4,15 @@ import img1 from "../image/img.jpg";
 
 class Profile extends Component {
   render() {
+    const user = this.props.profile;
     return (
       <div>
-        <img className="profile" alt="profile" src={img1} />
-        <p>Muhammad Edo Lubis</p>
+        <img
+          className="profile"
+          alt="profile"
+          src={user && user.owner.avatar_url}
+        />
+        <p>{user && user.owner.login}</p>
       </div>
     );
   }

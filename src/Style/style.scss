@@ -4,8 +4,26 @@
 }
 
 $myColor: #24292e;
+$fontColor: white;
 
-header {
-  background-color: $myColor;
-  color: white;
+.content {
+  display: flex;
+  padding-bottom: 8px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid;
+}
+
+.profile {
+  width: 220px;
+  height: 220px;
+  border: 1px solid #e1e4e8;
+}
+
+.update {
+  display: flex;
+}
+
+.list {
+  height: auto;
+  border-bottom: 1px solid;
 }

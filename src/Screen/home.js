@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import Header from "../Component/header";
 import Profile from "../Component/profile";
 import ListRepo from "../Component/listrepo";
-import Search from "../Component/search";
 import "../Style/style.scss";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Form } from "react-bootstrap";
 import axios from "axios";
 
 class Home extends Component {
@@ -61,22 +60,25 @@ class Home extends Component {
               />
             </Col>
             <Col md={9}>
-              <div className="content">
-                <form>
-                  <input
-                    type="text"
-                    placeholder="Search Account"
-                    className="input-search"
-                    onChange={this.handlechange}
-                    value={this.state.search}
-                  />
-                  <button className="buttonsearch" onClick={this.handleclick}>
-                    Search
-                  </button>
-                </form>
-              </div>
-
-              <ListRepo listdata={this.state.data} />
+              <form className="content">
+                <Form.Control
+                  type="text"
+                  placeholder="Search Account"
+                  // className="input-search"
+                  onChange={this.handlechange}
+                  value={this.state.search}
+                />
+                <button className="buttonsearch" onClick={this.handleclick}>
+                  Search
+                </button>
+              </form>
+              {this.state.data.length > 0 ? (
+                <ListRepo listdata={this.state.data} />
+              ) : (
+                <div className="notfound">
+                  <h1>No Repositories found</h1>
+                </div>
+              )}
             </Col>
           </Row>
         </Container>

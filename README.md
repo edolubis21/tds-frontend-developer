@@ -51,11 +51,10 @@ Npm start
 ## Screenshots
 
 
-<p align="center">
-  
- ![screencapture-canva-design-DAD1qaFmcsE-WQJT3lWMYwysFBSf37W4hw-edit-2020-03-24-19_53_29](https://user-images.githubusercontent.com/59104566/77428115-2f44fc80-6e0a-11ea-8220-bdcf4b3b9f6a.png)
 
-</p>
+![screencapture-localhost-3000-2020-04-09-01_00_57](https://user-images.githubusercontent.com/59104566/78851549-355eee00-7a44-11ea-936b-8a2a35f74779.png)
+
+
 
 
 ## Built With

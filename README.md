@@ -56,14 +56,14 @@ Npm start
 
 ## Demo 
 
-Link Demo : [Clik here] (https://repositoriesall.netlify.com)
+Link Demo : [Clik here](https://repositoriesall.netlify.com)
 
 
 ## Built With
 
 - [React JS](https://https://reactjs.org/) - Front-end
 
-- [API Github] (https://developer.github.com/v3/) 
+- [API Github](https://developer.github.com/v3/) 
 
 
 ## Author

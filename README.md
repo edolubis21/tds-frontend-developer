@@ -56,7 +56,7 @@ Npm start
 
 ## Demo 
 
-Link Demo :https://repositoriesall.netlify.com/
+Link Demo : [Clik here] (https://repositoriesall.netlify.com)
 
 
 ## Built With
